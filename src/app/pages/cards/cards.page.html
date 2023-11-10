@@ -1,0 +1,89 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Cards</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <h2 class="ion-text-center">
+    <ion-icon name="heart" color="danger"></ion-icon>
+    Mis fvoritos
+    <ion-icon name="heart" color="danger"></ion-icon>
+  </h2>
+
+  <swiper-container [slidesPerView]="1.2">
+    <swiper-slide>
+      <ion-card mode="ios">
+        <ion-card-header>
+          <ion-item>
+            <ion-avatar slot="start">
+              <ion-img></ion-img>
+            </ion-avatar>
+            <ion-label>
+              Name
+              <p>Specie</p>
+            </ion-label>
+          </ion-item>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-list>
+            <ion-item>
+              <ion-icon slot="start" name="logo-reddit" color="warning"></ion-icon>
+              Gender: X
+            </ion-item>
+
+            <ion-item>
+              <ion-icon slot="start" name="home" color="warning"></ion-icon>
+             Origin: X
+            </ion-item>
+
+            <ion-item>
+              <ion-icon slot="start" name="planet" color="warning"></ion-icon>
+              Location: X
+            </ion-item>
+
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+    </swiper-slide>
+
+    <swiper-slide>
+      <ion-card mode="ios">
+        <ion-card-header>
+          <ion-item>
+            <ion-avatar slot="start">
+              <ion-img></ion-img>
+            </ion-avatar>
+            <ion-label>
+              Name
+              <p>Specie</p>
+            </ion-label>
+          </ion-item>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-list>
+            <ion-item>
+              <ion-icon slot="start" name="logo-reddit" color="warning"></ion-icon>
+              Gender: X
+            </ion-item>
+
+            <ion-item>
+              <ion-icon slot="start" name="home" color="warning"></ion-icon>
+              Origin: X
+            </ion-item>
+
+            <ion-item>
+              <ion-icon slot="start" name="planet" color="warning"></ion-icon>
+              Location: X
+            </ion-item>
+
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+    </swiper-slide>
+  </swiper-container>
+
+</ion-content>
